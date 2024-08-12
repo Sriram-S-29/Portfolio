@@ -98,19 +98,21 @@ body {
 }
 
 aside {
+  margin-top: 11%;
   position: fixed;
-  display: block;
+  display: flex;
+  flex-direction: column;
   bottom: 0;
-  width: 100%;
-  height: 618px;
-  margin-top: 1.5%;
-  max-width: 15.625rem !important;
+  width: 17%;
+  height: 100%;
+  /* max-width: 15.625rem !important; */
   padding: 0;
   box-shadow: none;
   float: left;
   border: 1px solid rgba(234, 228, 228, 0.13);
   border-radius: 0.75rem;
   backdrop-filter: blur(76px);
+
 }
 
 li,
@@ -128,6 +130,7 @@ ul {
 }
 
 nav {
+  margin-top: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,6 +159,7 @@ nav {
   padding: 20px;
 }
 .logo {
+  margin-top: 10%;
   width: 10%;
 }
 
